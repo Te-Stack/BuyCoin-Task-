@@ -1,7 +1,7 @@
+
 const tablinks = document.querySelectorAll('.tablinks');
 const tabcontent = document.querySelectorAll('.tabcontent');
 const defaultOpen = document.getElementById("defaultOpen")
-
 
 openCity = (event, cityName) =>{
   tabcontent.forEach(tabcontentLoop =>{
@@ -91,7 +91,7 @@ const body = {
 }
 
 
-const token = "MY_SECRET_CODE";
+const token = "bash_scripts";
 const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
