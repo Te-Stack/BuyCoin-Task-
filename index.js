@@ -91,7 +91,7 @@ const body = {
 }
 
 
-const token = "MY_SECRET_CODE";
+const token = MY_SECRET_CODE;
 const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
