@@ -1,0 +1,24 @@
+{
+  "name": "buycoin-task",
+  "version": "1.0.0",
+  "description": "task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Te-Stack/BuyCoin-Task-.git"
+  },
+  "author": "Quincy Oghenetejiri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Te-Stack/BuyCoin-Task-/issues"
+  },
+  "homepage": "https://github.com/Te-Stack/BuyCoin-Task-#readme",
+  "devDependencies": {
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
