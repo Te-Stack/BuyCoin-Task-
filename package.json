@@ -4,9 +4,9 @@
   "description": "task",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack  --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack serve --mode development"
+    "dev": "webpack --env.API_URL=https://www.myapi.com --mode development",
+    "build": "webpack --env.API_URL=https://www.myapi.com --mode production",
+    "start": "webpack --env.API_URL=https://www.myapi.com serve --mode development"
   },
   "repository": {
     "type": "git",

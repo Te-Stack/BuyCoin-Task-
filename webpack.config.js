@@ -20,7 +20,7 @@ module.exports = {
             template: "./src/index.html"
         }),
         new webpack.DefinePlugin({
-            "process.env.MY_VALUE": JSON.stringify("aCoolValue")
+            "process.env.API_URL": JSON.stringify("${env.API_URL}")
           })
     ],
     module:{
