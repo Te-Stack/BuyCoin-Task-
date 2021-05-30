@@ -1,12 +1,10 @@
-import "../index.css";
-
-
+// import "../index.css";
 
 const tablinks = document.querySelectorAll('.tablinks');
 const tabcontent = document.querySelectorAll('.tabcontent');
 const defaultOpen = document.getElementById("defaultOpen")
 
-openCity = (event, cityName) =>{
+ openCity = (event, cityName) =>{
   tabcontent.forEach(tabcontentLoop =>{
   tabcontentLoop.style.display = 'none'
   })
@@ -231,6 +229,7 @@ const formatTimeUpdated = (date) => {
     return lastUpdated[0];
   }
 }
+
 
 
 
