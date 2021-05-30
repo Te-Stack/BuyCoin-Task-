@@ -17,10 +17,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: "index.html",
             template: "./src/index.html"
-        })/*,
-        new MiniCssExtractPlugin({
-            filename:"style.css"
-        })   */
+        })
     ],
     module:{
         rules:[
@@ -31,26 +28,6 @@ module.exports = {
                 loader:"babel-loader"
             }
         },
-        /*{
-            test:/\.css$/,
-            use:[MiniCssExtractPlugin.loader,{
-                loader:'css-loader',
-                options:{
-                    importLoaders:1,
-                    modules:true
-                }
-            }
-        ],
-        include: /\.module\.css$/
-        },
-        {
-            test:/\.css$/,
-            use: [
-                MiniCssExtractPlugin.loader,
-                'css-loader'
-            ],
-            exclude: /\.module\.css$/
-        }*/
         {
             test: /\.css$/,
             use: ["style-loader", "css-loader"]
