@@ -1,4 +1,4 @@
-
+import "../index.css"
 const tablinks = document.querySelectorAll('.tablinks');
 const tabcontent = document.querySelectorAll('.tabcontent');
 const defaultOpen = document.getElementById("defaultOpen")
