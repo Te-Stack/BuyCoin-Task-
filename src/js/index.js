@@ -91,7 +91,7 @@ const body = {
 }
 
 
-const token = "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";
+const token = "bash_script";
 const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
