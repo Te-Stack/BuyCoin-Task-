@@ -1,5 +1,4 @@
-const dotenv = require('dotenv');
-dotenv.config()
+
 const tablinks = document.querySelectorAll('.tablinks');
 const tabcontent = document.querySelectorAll('.tabcontent');
 const defaultOpen = document.getElementById("defaultOpen")
