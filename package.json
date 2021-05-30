@@ -4,9 +4,9 @@
   "description": "task",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --env.API_URL=https://www.myapi.com --mode development",
-    "build": "webpack --env.API_URL=https://www.myapi.com --mode production",
-    "start": "webpack --env.API_URL=https://www.myapi.com serve --mode development"
+    "dev": "webpack --env.ENVIRONMENT=production --mode development",
+    "build": "webpack --env.ENVIRONMENT=production --mode production",
+    "start": "webpack  serve --mode development"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "@babel/preset-env": "^7.14.2",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "dotenv": "^10.0.0",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "style-loader": "^2.0.0",
