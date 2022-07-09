@@ -1,4 +1,4 @@
-require('dotenv').config();
+// require('dotenv').config();
 const tablinks = document.querySelectorAll('.tablinks');
 const tabcontent = document.querySelectorAll('.tabcontent');
 const defaultOpen = document.getElementById("defaultOpen")
@@ -91,7 +91,7 @@ const body = {
 }
 
 
-const token = process.env.GITHUB_TOKEN
+const token = "GITHUB_TOKEN"
 const baseUrl = "https://api.github.com/graphql";
 
 const headers = {
